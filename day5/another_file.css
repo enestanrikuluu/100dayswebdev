@@ -1,0 +1,45 @@
+body {
+    background-color: #5e5252;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(29, 17, 17);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration: wavy;
+}
+
+#first-goal {
+    color: #aed329;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+#second-goal {
+    color: #1b0b65;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+a {
+    color: aqua;
+    font-family: 'Ariel', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    font-family: 'Ariel', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}

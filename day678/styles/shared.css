@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #a3312b;
+  }
+  
+
+
+  .daily-goal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  

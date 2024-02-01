@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(243, 233, 255);
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: rgb(86, 48, 195);
+  font-size: 68px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
+}
+
+main {
+  background-color: rgb(114, 71, 207);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin: 50px 200px 30px 200px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: left;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.important {
+  color: rgb(241, 244, 172);
+  border-left: 5px solid white;
+  border-left-color: rgb(243,211,85);
+  padding-left: 10px;
+}
+
+p {
+  text-align: left;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.colored-highlight {
+  color: rgb(78, 46, 102);
+  background-color: rgb(255, 240, 176);
+  font-weight: 520;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Download {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: rgb(12, 7, 1);
+    background-color: rgb(249,201,43);
+    border-radius: 10px;
+    margin: auto;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#licence {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: rgb(129, 111, 141);
+    margin: auto;
+    font-size: 16px;
+    margin-top: 20px;
+}

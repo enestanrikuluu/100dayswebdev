@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background-color: rgb(173, 180, 144);
+  margin-top: 100px;
+}
+
+main {
+  background-color: rgb(183, 84, 38);
+  width: 640px;
+  margin: 20px auto;
+  padding: 70px 0px 30px 0px;
+  border: #232121 3px solid;
+  border-radius: 3px;
+}
+
+.highlight {
+  color: rgb(69, 16, 16);
+}
+
+img {
+  margin-bottom: -87px;
+}
+
+h1 {
+  font-family: "Sixtyfour", sans-serif;
+  text-align: center;
+  color: #1c571c;
+  font-size: 20px;
+}
+
+a {
+  color: rgb(138, 23, 82);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#my-id {
+  color: rgb(35, 33, 30);
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.link{
+  color: rgb(35, 33, 30);
+  font-size: 15px;
+}
