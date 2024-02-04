@@ -1,0 +1,119 @@
+html {
+    background-color: rgb(237,249,254);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+
+main {
+    background-color: rgb(245,248,255);
+    width: 32rem;
+    padding: 1rem;
+    box-shadow: 1px 2px 8px rgba(0,0,0,0.26);
+    border-radius: 8px;
+}
+
+#info h2 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+#info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#info li {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+}
+
+#info input , #info textarea, #info select{
+    width: 100%;
+    margin: 0.3rem 0;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(184,184,184);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+
+}
+
+#info input:focus, #info textarea:focus, #info select:focus {
+    background-color: rgb(212,220,244);
+    color: rgb(23,23,23)
+}
+
+select:focus{
+    background-color: rgb(96,92,96);
+    color: rgb(230,230,230);
+}
+
+textarea {
+    resize: none;
+}
+
+.form-control-inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#reply ul {
+    padding: 0;
+}
+
+#buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+#buttons button {
+    padding: 0.4rem 1.5rem;
+    border-radius: 3px;
+    border-width: 0.1px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.26);
+    box-sizing: border-box;
+}
+
+#buttons #res {
+    background-color: rgb(245,248,255);
+    color: rgb(23,23,23);
+    margin-right: 0.2rem;
+    
+}
+
+#buttons #sub {
+    background-color:rgb(38,46,66) ;
+    color: rgb(237,249,254);
+    border: none;
+    margin-right: 0.5rem;
+}
+
+#buttons #sub:hover {
+    background-color: rgb(48, 55, 72);
+    cursor: pointer;
+}
+
+#buttons #res:hover {
+    background-color: rgb(235,238,245);
+    cursor: pointer;
+}

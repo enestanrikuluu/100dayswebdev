@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <main>
+        <form action="contact.html">
+            <section>
+                <h2>How can we help you?</h2>
+            </section>
+            <section id="info">
+                <ul>
+                    <li>
+                        <label for="name">Your name</label>
+                        <input type="text" name="name" id="name" required>
+                    </li>
+
+                    <li>
+                        <label for="email">Your e-mail address</label>
+                        <input type="email" name="e-mail" id="email" required>
+                    </li>
+
+                    <li>
+                        <label for="phone-number">Your phone number</label>
+                        <input type="number" name="phone-number" id="phone-number" required minlength="11" maxlength="11">
+                    </li>
+
+                    <li>
+                        <label for="message">Your message</label>
+                        <textarea name="message" id="message" cols="30" rows="5"> </textarea>
+                    </li>
+
+                    <li>
+                        
+                        <label for="find-info">How did you find us?</label>
+                        <select name="find-info" id="find-info">
+                            <option value="google">Google</option>
+                            <option value="friend">Friend</option>
+                            <option value="advertisement">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section id="reply">
+                <h3>How Should We Reply</h3>
+                <ul>
+                    <li class="form-control-inline">
+                        <input type="radio" name="reply" id="reply-phone" value="phone" required>
+                        <label for="reply-phone">Call me</label>
+                    </li>
+
+                    <li class="form-control-inline">
+                        <input type="radio" name="reply" id="reply-email" value="email" required>
+                        <label for="reply-email">Send me an e-mail</label>
+                    </li>
+
+                    <li class="form-control-inline">
+                        <input type="radio" name="reply" id="reply-no" value="no" required>
+                        <label for="reply-no">Don't reply</label>
+                    </li>
+                </ul>
+    
+            </section>
+
+            <section id="check">
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="terms">Accept terms</label>
+            </section>
+
+            <section id="buttons">
+                <button type="reset" id="res" >Clear</button>
+                <button type="submit" id="sub">Submit</button>
+            </section>
+
+
+            
+
+        </form>
+
+    </main>
+    
+</body>
+</html>
