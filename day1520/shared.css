@@ -8,6 +8,9 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 
@@ -21,6 +24,16 @@ header{
     font-size: 50px;
     color: rgb(245,243,160);
     text-transform: uppercase;
+    background-color: none;
+}
+
+#page-logo {
+    background-color: transparent;
+}
+
+#page-logo a:hover {
+    background-color: transparent;
+    color: rgb(245,243,160);
 }
 
 header ul {
@@ -45,5 +58,32 @@ header li
 
 header a {
     text-decoration: none;
-    color: rgb(144, 144, 16);
+    color: rgb(255, 251, 0);
+    font-size: 20px;
+    padding: 10px;
+    text-shadow: 1px 1px 2px rgb(0,0,0);
+    border-radius: 6px
+}
+
+header a:hover {
+    background-color: rgb(255, 251, 0);
+    color: rgb(77,77,77);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10PX;
+    background: linear-gradient(70deg, rgb(230,226,256), rgb(205,200,256));
+    color: rgb(245,243,160);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0,0,0);
+}
+
+footer img{
+    height: 70px;
+    width: 70px;
+    padding: 0px 20px;
 }
