@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(31,31,31);
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-color: rgb(244,243,199);
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.5);
+    border-radius: 10px;
+    width: 50rem;
+    margin: 3rem auto;
+}
+
+#number-input {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 3rem;
+
+}
+
+
+#number-input label {
+    font-size: 1rem;
+    font-weight: 800;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+#number-input input {
+    border-radius: 5px;
+    border: 1px solid rgb(6, 25, 32);
+    background-color: rgb(244,243,199);
+    width: 30rem;
+    padding: 0.4rem;
+    margin-left: 1rem;
+    height: 1.2rem;
+}
+
+button {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(200,176,49);
+    color: rgb(13,13,13);
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+#count {
+    display: flex;
+    align-items: center;
+}
+
+#count p {
+    color: rgb(70,70,70);
+}
+
+#count #entered {
+    margin-left: 1.2rem;
+}
+
+
+
