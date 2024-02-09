@@ -1,12 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
 </head>
+
 <body>
-    
+    <header>
+        <h1><a href="#">Play Tic, Tac, Toe</a></h1>
+        <p>Build with HTML, CSS, JavaScript
+            and of course, lots of love.
+        </p>
+    </header>
+    <main>
+        <div id="backdrop"></div>
+        <div id="cards">
+            <section class="player-card">
+                <h2>Player 1</h2>
+                <p><strong id="player1-name">PLAYER NAME</strong></p>
+                <p class="choice"><strong>X</strong></p>
+                <a href="#" , id="player1-edit-link">Edit</a>
+            </section>
+            <section class="player-card">
+                <h2>Player 2</h2>
+                <p><strong id="player2-name">PLAYER NAME</strong></p>
+                <p class="choice"><strong>O</strong></p>
+                <a href="#" , id="player2-edit-link">Edit</a>
+            </section>
+        </div>
+
+        <section id="button">
+            <button id="start">Start New Game</button>
+        </section>
+
+        <section id="register">
+            <div id="register1">
+                <h3>Choose Your Name for Player 1</h3>
+                <label for="player-name1">Player name</label>
+                <input type="text" id="player-name1">
+                <div id="cancel-confirm-button1">
+                    <button id="cancel1">Cancel</button>
+                    <button id="confirm1">Confirm</button>
+                </div>
+            </div>
+
+            <div id="register2">
+                <h3>Choose Your Name for Player 2</h3>
+                <label for="player-name2">Player name</label>
+                <input type="text" id="player-name2">
+                <div id="cancel-confirm-button2">
+                    <button id="cancel2">Cancel</button>
+                    <button id="confirm2">Confirm</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="game-over">
+            <p><strong id="game-over-text">YOU WON, <strong id="winner">NAME</strong>!</strong></p>
+            <p>Click start new game above to start a new game.</p>
+        </section>
+
+
+        <section id="game">
+            <p>It's your turn <strong id="player-turn">Max</strong></p>
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    <p></p>
+                </div>
+                <div class="grid-item">
+                    <p></p>
+                </div>
+                <div class="grid-item">
+                    <p></p>
+                </div>
+                <div class="grid-item">
+                    <p></p>
+                </div>
+                <div class="grid-item">
+                    <p></p>
+                </div>
+                <div class="grid-item">
+                    <p></p>
+                </div>
+                <div class="grid-item">
+                    <p></p>
+                </div>
+                <div class="grid-item">
+                    <p></p>
+                </div>
+                <div class="grid-item">
+                    <p></p>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+    </main>
+    <footer></footer>
 </body>
+
 </html>
