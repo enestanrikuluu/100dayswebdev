@@ -1,0 +1,24 @@
+#carousel-ex {
+    width: 100%;
+    max-width: 50rem;
+    height: 30rem;
+    margin: 2rem auto;
+}
+#carousel-ex img {
+    height: 30rem;
+    object-fit: cover;
+    width: 30rem;
+}
+
+#news-letter-sign-up {
+    max-width: 30rem;
+    margin: 4rem auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
